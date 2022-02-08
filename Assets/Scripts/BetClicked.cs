@@ -17,9 +17,13 @@ namespace Pachinko {
         {
             ballvalueScript = GameObject.FindGameObjectWithTag("EventSystem").GetComponent<BallValue>();
         }
+        public double ballamountcagir()
+        {
+            return ballvalueScript.ballAmount;
+        }
         IEnumerator topat()
         {
-            while (f < ballvalueScript.ballAmount)
+            while (f < ballamountcagir())
             {
                 f++;
                 x = Random.Range(-2.28f, -0.68f);
@@ -38,4 +42,3 @@ namespace Pachinko {
         }
     }
 }
-

@@ -12,7 +12,6 @@ namespace Pachinko
         public CashControl cashcontrol;
         private void Awake()
         {
-           
             cashcontrol = GameObject.FindGameObjectWithTag("EventSystem").GetComponent<CashControl>();
         }
         private void OnTriggerEnter2D(Collider2D info)
