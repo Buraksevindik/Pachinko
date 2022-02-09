@@ -465,7 +465,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1235552681}
+      - m_Target: {fileID: 1235552679}
         m_TargetAssemblyTypeName: Pachinko.BallValue, Assembly-CSharp
         m_MethodName: ballamountA
         m_Mode: 1
@@ -852,13 +852,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 52635980}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a278b4b89d28d84d995b976d1461a91, type: 3}
+  m_Script: {fileID: 11500000, guid: eba798a7ff468df40b15e365d8177e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
   degerr: 0.2
   cashText: {fileID: 717284644}
-  cashcontrol: {fileID: 0}
+  cashcontrol: {fileID: 1235552681}
 --- !u!1001 &54965640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1237,13 +1237,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 85183059}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a278b4b89d28d84d995b976d1461a91, type: 3}
+  m_Script: {fileID: 11500000, guid: eba798a7ff468df40b15e365d8177e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
   degerr: 0.2
   cashText: {fileID: 717284644}
-  cashcontrol: {fileID: 0}
+  cashcontrol: {fileID: 1235552681}
 --- !u!1001 &88653629
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2630,13 +2630,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 209521173}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a278b4b89d28d84d995b976d1461a91, type: 3}
+  m_Script: {fileID: 11500000, guid: eba798a7ff468df40b15e365d8177e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
   degerr: 25
   cashText: {fileID: 717284644}
-  cashcontrol: {fileID: 0}
+  cashcontrol: {fileID: 1235552681}
 --- !u!1 &212771021
 GameObject:
   m_ObjectHideFlags: 0
@@ -2883,13 +2883,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 219476133}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a278b4b89d28d84d995b976d1461a91, type: 3}
+  m_Script: {fileID: 11500000, guid: eba798a7ff468df40b15e365d8177e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
   degerr: 25
   cashText: {fileID: 717284644}
-  cashcontrol: {fileID: 0}
+  cashcontrol: {fileID: 1235552681}
 --- !u!4 &231163958 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 361600271181768597, guid: fbf7de8f59cbe8a4ab566237186fcf27, type: 3}
@@ -3102,13 +3102,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 244669737}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a278b4b89d28d84d995b976d1461a91, type: 3}
+  m_Script: {fileID: 11500000, guid: eba798a7ff468df40b15e365d8177e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
   degerr: 5
   cashText: {fileID: 717284644}
-  cashcontrol: {fileID: 0}
+  cashcontrol: {fileID: 1235552681}
 --- !u!4 &249484349 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 361600271181768597, guid: fbf7de8f59cbe8a4ab566237186fcf27, type: 3}
@@ -5333,13 +5333,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 433217293}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a278b4b89d28d84d995b976d1461a91, type: 3}
+  m_Script: {fileID: 11500000, guid: eba798a7ff468df40b15e365d8177e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
   degerr: 1.3
   cashText: {fileID: 717284644}
-  cashcontrol: {fileID: 0}
+  cashcontrol: {fileID: 1235552681}
 --- !u!4 &439992473 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 361600271181768597, guid: fbf7de8f59cbe8a4ab566237186fcf27, type: 3}
@@ -5926,7 +5926,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1235552681}
+      - m_Target: {fileID: 1235552679}
         m_TargetAssemblyTypeName: Pachinko.BallValue, Assembly-CSharp
         m_MethodName: ballamountY
         m_Mode: 1
@@ -8377,13 +8377,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 688285020}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a278b4b89d28d84d995b976d1461a91, type: 3}
+  m_Script: {fileID: 11500000, guid: eba798a7ff468df40b15e365d8177e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
   degerr: 50
   cashText: {fileID: 717284644}
-  cashcontrol: {fileID: 0}
+  cashcontrol: {fileID: 1235552681}
 --- !u!1001 &696372615
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8652,7 +8652,7 @@ GameObject:
   - component: {fileID: 701521625}
   - component: {fileID: 701521624}
   - component: {fileID: 701521623}
-  - component: {fileID: 701521622}
+  - component: {fileID: 701521628}
   m_Layer: 0
   m_Name: Square (18)
   m_TagString: Untagged
@@ -8680,22 +8680,6 @@ RectTransform:
   m_AnchoredPosition: {x: 11.5298, y: -0.001}
   m_SizeDelta: {x: 1.5871, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &701521622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 701521620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a278b4b89d28d84d995b976d1461a91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
-  degerr: 50
-  cashText: {fileID: 717284644}
-  cashcontrol: {fileID: 0}
 --- !u!61 &701521623
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8842,6 +8826,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &701521628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701521620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eba798a7ff468df40b15e365d8177e00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
+  degerr: 50
+  cashText: {fileID: 717284644}
+  cashcontrol: {fileID: 1235552681}
 --- !u!1001 &703820372
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10196,7 +10196,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1235552681}
+      - m_Target: {fileID: 1235552679}
         m_TargetAssemblyTypeName: Pachinko.BallValue, Assembly-CSharp
         m_MethodName: BallY
         m_Mode: 1
@@ -11641,7 +11641,7 @@ GameObject:
   - component: {fileID: 1053109776}
   - component: {fileID: 1053109775}
   - component: {fileID: 1053109774}
-  - component: {fileID: 1053109773}
+  - component: {fileID: 1053109779}
   m_Layer: 0
   m_Name: Square (19)
   m_TagString: Untagged
@@ -11669,22 +11669,6 @@ RectTransform:
   m_AnchoredPosition: {x: -10.117302, y: -0.001}
   m_SizeDelta: {x: 8.4653, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1053109773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1053109771}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a278b4b89d28d84d995b976d1461a91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
-  degerr: 50
-  cashText: {fileID: 717284644}
-  cashcontrol: {fileID: 0}
 --- !u!61 &1053109774
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11831,6 +11815,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1053109779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053109771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eba798a7ff468df40b15e365d8177e00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
+  degerr: 50
+  cashText: {fileID: 717284644}
+  cashcontrol: {fileID: 1235552681}
 --- !u!4 &1054724423 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 361600271181768597, guid: fbf7de8f59cbe8a4ab566237186fcf27, type: 3}
@@ -12415,13 +12415,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1104350673}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a278b4b89d28d84d995b976d1461a91, type: 3}
+  m_Script: {fileID: 11500000, guid: eba798a7ff468df40b15e365d8177e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
   degerr: 4
   cashText: {fileID: 717284644}
-  cashcontrol: {fileID: 0}
+  cashcontrol: {fileID: 1235552681}
 --- !u!4 &1105018543 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 361600271181768597, guid: fbf7de8f59cbe8a4ab566237186fcf27, type: 3}
@@ -13875,10 +13875,12 @@ GameObject:
   - component: {fileID: 1235552678}
   - component: {fileID: 1235552677}
   - component: {fileID: 1235552676}
-  - component: {fileID: 1235552679}
-  - component: {fileID: 1235552680}
-  - component: {fileID: 1235552681}
+  - component: {fileID: 1235552683}
   - component: {fileID: 1235552682}
+  - component: {fileID: 1235552681}
+  - component: {fileID: 1235552680}
+  - component: {fileID: 1235552679}
+  - component: {fileID: 1235552684}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: EventSystem
@@ -13944,11 +13946,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1235552675}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b8b3f21679c4ae4ea199bcb775c747c, type: 3}
+  m_Script: {fileID: 11500000, guid: 87cf2eec1edb26a43bcc7506100051d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
-  ballamount: 0
+  ballybtn: {fileID: 797924494}
+  cashcontrol: {fileID: 0}
+  ballText: {fileID: 1198004888}
+  topdeger: 0
+  ballAtext: {fileID: 915295597}
+  cashControl: {fileID: 0}
+  ballAmount: 0
+  ballAA: {fileID: 33830833}
+  ballAY: {fileID: 489439202}
 --- !u!114 &1235552680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13958,12 +13967,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1235552675}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d2ef8b55ba3bf144a966c212cc2f8dc, type: 3}
+  m_Script: {fileID: 11500000, guid: b69986ae9e6275e4ab6c45c9f7991904, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  money: 1000
-  betBtn: {fileID: 1587089303}
-  cashText: {fileID: 717284644}
+  betbutton: {fileID: 1587089303}
+  Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
+  ballamount: 0
 --- !u!114 &1235552681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13973,18 +13982,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1235552675}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 076127f2337d5c54d8d1554e9ad4f24c, type: 3}
+  m_Script: {fileID: 11500000, guid: a2c3f3844e6f3ed42970a21c83cfba8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballybtn: {fileID: 0}
-  cashcontrol: {fileID: 0}
-  ballText: {fileID: 1198004888}
-  topdeger: 0
-  ballAtext: {fileID: 915295597}
-  cashControl: {fileID: 0}
-  ballAmount: 0
-  ballAA: {fileID: 33830833}
-  ballAY: {fileID: 489439202}
+  money: 1000
+  betBtn: {fileID: 1587089303}
+  cashText: {fileID: 717284644}
 --- !u!114 &1235552682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13994,7 +13997,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1235552675}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c4a931b214f9a343bc32e5c409f30e1, type: 3}
+  m_Script: {fileID: 11500000, guid: 07601538b47fcea48878ae98d7c7f299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ballAA: {fileID: 33830833}
@@ -14006,7 +14009,35 @@ MonoBehaviour:
   cashcontrol: {fileID: 0}
   betclicked: {fileID: 0}
   ballvalueScript: {fileID: 0}
-  modalma: 0
+--- !u!114 &1235552683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235552675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4617f75929e5258419dd10d7ac2b0c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deger: 0
+  ballvalueScript: {fileID: 0}
+--- !u!114 &1235552684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235552675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5096fbe075f591469321bbb3caa37d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  betBtn: {fileID: 1587089303}
+  cashcontrol: {fileID: 0}
+  ballvalueScript: {fileID: 0}
 --- !u!1001 &1241560113
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15184,13 +15215,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1315194925}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a278b4b89d28d84d995b976d1461a91, type: 3}
+  m_Script: {fileID: 11500000, guid: eba798a7ff468df40b15e365d8177e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
   degerr: 4
   cashText: {fileID: 717284644}
-  cashcontrol: {fileID: 0}
+  cashcontrol: {fileID: 1235552681}
 --- !u!1 &1325617337
 GameObject:
   m_ObjectHideFlags: 0
@@ -16192,13 +16223,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1379142927}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a278b4b89d28d84d995b976d1461a91, type: 3}
+  m_Script: {fileID: 11500000, guid: eba798a7ff468df40b15e365d8177e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
   degerr: 2.5
   cashText: {fileID: 717284644}
-  cashcontrol: {fileID: 0}
+  cashcontrol: {fileID: 1235552681}
 --- !u!1 &1394503193
 GameObject:
   m_ObjectHideFlags: 0
@@ -18717,9 +18748,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1235552679}
-        m_TargetAssemblyTypeName: BetClicked, Assembly-CSharp
-        m_MethodName: Betclicked
+      - m_Target: {fileID: 1235552681}
+        m_TargetAssemblyTypeName: Pachinko.CashControl, Assembly-CSharp
+        m_MethodName: BetClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18730,8 +18761,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1235552680}
-        m_TargetAssemblyTypeName: Pachinko.CashControl, Assembly-CSharp
-        m_MethodName: BetClicked
+        m_TargetAssemblyTypeName: Pachinko.BetClicked, Assembly-CSharp
+        m_MethodName: Betclicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19463,7 +19494,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1235552681}
+      - m_Target: {fileID: 1235552679}
         m_TargetAssemblyTypeName: Pachinko.BallValue, Assembly-CSharp
         m_MethodName: BallA
         m_Mode: 1
@@ -21072,13 +21103,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1719486656}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a278b4b89d28d84d995b976d1461a91, type: 3}
+  m_Script: {fileID: 11500000, guid: eba798a7ff468df40b15e365d8177e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
   degerr: 2.5
   cashText: {fileID: 717284644}
-  cashcontrol: {fileID: 0}
+  cashcontrol: {fileID: 1235552681}
 --- !u!1 &1723425595
 GameObject:
   m_ObjectHideFlags: 0
@@ -21276,13 +21307,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1723425595}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a278b4b89d28d84d995b976d1461a91, type: 3}
+  m_Script: {fileID: 11500000, guid: eba798a7ff468df40b15e365d8177e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
   degerr: 50
   cashText: {fileID: 717284644}
-  cashcontrol: {fileID: 0}
+  cashcontrol: {fileID: 1235552681}
 --- !u!1 &1725713836
 GameObject:
   m_ObjectHideFlags: 0
@@ -22235,13 +22266,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1761942573}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a278b4b89d28d84d995b976d1461a91, type: 3}
+  m_Script: {fileID: 11500000, guid: eba798a7ff468df40b15e365d8177e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
   degerr: 0.2
   cashText: {fileID: 717284644}
-  cashcontrol: {fileID: 0}
+  cashcontrol: {fileID: 1235552681}
 --- !u!4 &1762146394 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 361600271181768597, guid: fbf7de8f59cbe8a4ab566237186fcf27, type: 3}
@@ -23871,13 +23902,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1862206101}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a278b4b89d28d84d995b976d1461a91, type: 3}
+  m_Script: {fileID: 11500000, guid: eba798a7ff468df40b15e365d8177e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
   degerr: 5
   cashText: {fileID: 717284644}
-  cashcontrol: {fileID: 0}
+  cashcontrol: {fileID: 1235552681}
 --- !u!4 &1864707469 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 361600271181768597, guid: fbf7de8f59cbe8a4ab566237186fcf27, type: 3}
@@ -25319,13 +25350,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1948327296}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a278b4b89d28d84d995b976d1461a91, type: 3}
+  m_Script: {fileID: 11500000, guid: eba798a7ff468df40b15e365d8177e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
   degerr: 1.3
   cashText: {fileID: 717284644}
-  cashcontrol: {fileID: 0}
+  cashcontrol: {fileID: 1235552681}
 --- !u!4 &1949174054 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 361600271181768597, guid: fbf7de8f59cbe8a4ab566237186fcf27, type: 3}
@@ -25528,13 +25559,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1949200920}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a278b4b89d28d84d995b976d1461a91, type: 3}
+  m_Script: {fileID: 11500000, guid: eba798a7ff468df40b15e365d8177e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
   degerr: 0.2
   cashText: {fileID: 717284644}
-  cashcontrol: {fileID: 0}
+  cashcontrol: {fileID: 1235552681}
 --- !u!1001 &1951267338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26151,13 +26182,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2000811660}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a278b4b89d28d84d995b976d1461a91, type: 3}
+  m_Script: {fileID: 11500000, guid: eba798a7ff468df40b15e365d8177e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 5206626541448864730, guid: 2289c5fc0a20b9b478ff36e5669dc373, type: 3}
   degerr: 0.2
   cashText: {fileID: 717284644}
-  cashcontrol: {fileID: 0}
+  cashcontrol: {fileID: 1235552681}
 --- !u!4 &2003077949 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 361600271181768597, guid: fbf7de8f59cbe8a4ab566237186fcf27, type: 3}

@@ -25,15 +25,11 @@ namespace Pachinko
         }
         public void BetClicked()
         {
-                if (money > 0)
-                {
-                   money -= ballvalueScript.topdeger*ballvalueScript.ballAmount;
-                   cashText.text = "Cash : " + money + "$";
-                }
-                if (money <= 0)
-                {
-                  betBtn.interactable = false;
-                }
+            if (money > 0)
+            {
+                money -= ballvalueScript.topdeger * ballvalueScript.ballAmount;
+                cashText.text = "Cash : " + money + "$";
+            }
         }
     }
 }

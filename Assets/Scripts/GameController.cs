@@ -15,7 +15,6 @@ namespace Pachinko
         public CashControl cashcontrol;
         public BetClicked betclicked;
         public BallValue ballvalueScript;
-        public double modalma;
         private void Awake()
         {
             betclicked = GameObject.FindGameObjectWithTag("EventSystem").GetComponent<BetClicked>();
@@ -24,7 +23,6 @@ namespace Pachinko
         }
         void Update()
         {
-            //BallY/BetBtn Control
             if (ballvalueScript.topdeger > cashcontrol.money)
             {
                 betBtn.interactable = false;
@@ -35,6 +33,14 @@ namespace Pachinko
                 //betBtn.interactable = true;
                 ballybtn.interactable = true;
             }
+            if ((ballvalueScript.ballAmount * (ballvalueScript.topdeger+10)) > cashcontrol.money)
+            {
+                ballybtn.interactable = false;
+            }
+            if (ballvalueScript.topdeger + cashcontrol.money % 10 == cashcontrol.money)
+            {
+                ballybtn.interactable = false;
+            }
             //ballAA/ballAY Control
             if (ballvalueScript.ballAmount - 5 <= 0)
             {
@@ -44,15 +50,6 @@ namespace Pachinko
             {
                 ballAA.interactable = true;
             }
-            if ((ballvalueScript.ballAmount * ballvalueScript.topdeger) > cashcontrol.money)
-            {
-                ballybtn.interactable = false;
-                betBtn.interactable = false;
-            }
-            else
-            {
-                betBtn.interactable = true;
-            }
             if ((ballvalueScript.ballAmount + 5) * ballvalueScript.topdeger >= cashcontrol.money)
             {
                 ballAY.interactable = false;
@@ -60,11 +57,6 @@ namespace Pachinko
             else
             {
                 ballAY.interactable = true;
-            }
-            //---------------
-            if (ballvalueScript.topdeger + cashcontrol.money % 10 == cashcontrol.money)
-            {
-                ballybtn.interactable = false;
             }
             //BallA Control
             if (ballvalueScript.topdeger == 10)

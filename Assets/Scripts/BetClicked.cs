@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Pachinko {
     public class BetClicked : MonoBehaviour
     {
+        public Button betbutton;
         int f = 0;
         public GameObject Player;
         //public PlayerSettings playerSettings;
@@ -32,13 +34,19 @@ namespace Pachinko {
                 z = 0;
                 pos = new Vector3(x, y, z);
                 transform.position = pos;
+                betbutton.interactable = false;
                 Instantiate(Player, pos, Quaternion.identity);
-               yield return new WaitForSecondsRealtime(0.3f);            }
+                GetComponent<BetButtonControl>().enabled = false;
+                betbutton.interactable = false;
+                yield return new WaitForSecondsRealtime(0.3f);
+            }
+            GetComponent<BetButtonControl>().enabled = true;
             f = 0;
         }
         public void Betclicked()
         {
             StartCoroutine(topat());
+            
         }
     }
 }

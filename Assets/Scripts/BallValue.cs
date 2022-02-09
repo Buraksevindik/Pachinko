@@ -15,8 +15,9 @@ namespace Pachinko
         public double ballAmount;
         public Button ballAA;
         public Button ballAY;
+
         private void Start()
-        {
+        {            
             cashcontrol = GameObject.FindGameObjectWithTag("EventSystem").GetComponent<CashControl>();
             topdeger =10;
             ballAmount = 1;
