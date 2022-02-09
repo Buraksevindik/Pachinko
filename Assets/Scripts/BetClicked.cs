@@ -13,17 +13,18 @@ namespace Pachinko {
         float z;
         Vector3 pos;
         BallValue ballvalueScript;
+        public double ballamount;
+       
         private void Awake()
         {
             ballvalueScript = GameObject.FindGameObjectWithTag("EventSystem").GetComponent<BallValue>();
         }
-        public double ballamountcagir()
-        {
-            return ballvalueScript.ballAmount;
-        }
         IEnumerator topat()
         {
-            while (f < ballamountcagir())
+            /*ballamount u sabitlendi(normalde while döngüsünde direkt olarak ballvalue.ballamount dan çaðýrýyorduk ve o her seferinde güncel halini getiriyor
+            böylece 6 top seçip bet butonuna bastýktan sonra topun saysýný yükselttiðimizde güncel sayý kadar top oluþturuyor ve 6 topun parasýný alýyordu)*/
+            ballamount = ballvalueScript.ballAmount;
+            while (f < ballamount)
             {
                 f++;
                 x = Random.Range(-2.28f, -0.68f);
@@ -32,8 +33,7 @@ namespace Pachinko {
                 pos = new Vector3(x, y, z);
                 transform.position = pos;
                 Instantiate(Player, pos, Quaternion.identity);
-               yield return new WaitForSecondsRealtime(0.3f);
-            }
+               yield return new WaitForSecondsRealtime(0.3f);            }
             f = 0;
         }
         public void Betclicked()
