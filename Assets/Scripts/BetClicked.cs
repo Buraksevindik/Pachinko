@@ -38,7 +38,7 @@ namespace Pachinko {
                 Instantiate(Player, pos, Quaternion.identity);
                 GetComponent<BetButtonControl>().enabled = false;
                 betbutton.interactable = false;
-                yield return new WaitForSecondsRealtime(0.3f);
+                yield return new WaitForSecondsRealtime(0.2f);
             }
             GetComponent<BetButtonControl>().enabled = true;
             f = 0;

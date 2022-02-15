@@ -9,10 +9,10 @@ namespace Pachinko
         public Button ballybtn;
         public CashControl cashcontrol;
         public Text ballText;
-        public double topdeger;
+        public float topdeger;
         public Text ballAtext;
         public CashControl cashControl;
-        public double ballAmount;
+        public float ballAmount;
         public Button ballAA;
         public Button ballAY;
 

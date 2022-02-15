@@ -11,6 +11,7 @@ namespace Pachinko
         public Button betBtn;
         public Button ballabtn;
         public Button ballybtn;
+        public Button addmoneyBtn;
         public BallValue ballAmount;
         public CashControl cashcontrol;
         public BetClicked betclicked;
@@ -23,6 +24,16 @@ namespace Pachinko
         }
         void Update()
         {
+            //AddMoneyButton Control
+            if (cashcontrol.money<10)
+            {
+                addmoneyBtn.interactable = true;
+            }
+            else
+            {
+                addmoneyBtn.interactable = false;
+            }
+            //BetButton BallyButton Control
             if (ballvalueScript.topdeger > cashcontrol.money)
             {
                 betBtn.interactable = false;
@@ -30,7 +41,6 @@ namespace Pachinko
             }
             else
             {
-                //betBtn.interactable = true;
                 ballybtn.interactable = true;
             }
             if ((ballvalueScript.ballAmount * (ballvalueScript.topdeger+10)) > cashcontrol.money)
@@ -58,7 +68,6 @@ namespace Pachinko
             {
                 ballAY.interactable = true;
             }
-            //BallA Control
             if (ballvalueScript.topdeger == 10)
             {
                 ballabtn.interactable = false;

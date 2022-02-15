@@ -7,19 +7,24 @@ namespace Pachinko
 {
     public class CashControl : MonoBehaviour
     {
-        BallValue ballvalueScript;
-        public double money = 1000;
+        BallValue ballvalueScript;      
         public Button betBtn;
         public Text cashText;
+        public float money;
         private void Awake()
         {
             ballvalueScript = GameObject.FindGameObjectWithTag("EventSystem").GetComponent<BallValue>();
+            money = PlayerPrefs.GetFloat("Money");
+        }
+        private void Start()
+        {
+            cashText.text ="Cash : "+ money+"$";
         }
         public double GetMoney()
         {
             return money;
         }
-        public void AdjustMoney(double amount)
+        public void AdjustMoney(float amount)
         {
             money += amount;
         }
@@ -29,6 +34,7 @@ namespace Pachinko
             {
                 money -= ballvalueScript.topdeger * ballvalueScript.ballAmount;
                 cashText.text = "Cash : " + money + "$";
+                PlayerPrefs.SetFloat("Money", money);
             }
         }
     }

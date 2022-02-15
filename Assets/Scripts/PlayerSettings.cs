@@ -6,7 +6,7 @@ namespace Pachinko
 
     public class PlayerSettings : MonoBehaviour
     {
-        public double deger;
+        public float deger;
         public BallValue ballvalueScript;
         private void Awake()
         {
