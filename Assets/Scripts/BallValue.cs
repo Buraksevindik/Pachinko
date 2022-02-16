@@ -8,7 +8,7 @@ namespace Pachinko
     {
         public Button ballybtn;
         public CashControl cashcontrol;
-        public Text ballText;
+        public Text bettext;
         public float topdeger;
         public Text ballAtext;
         public CashControl cashControl;
@@ -31,13 +31,13 @@ namespace Pachinko
             else
             {
                 topdeger += 10;
-                ballText.text = "Bet Amount : " + topdeger + "$";
+                bettext.text = "Bet Amount : " + topdeger + "$";
             }
         }
         public void BallA() 
         {
                 topdeger -= 10;
-                ballText.text = "Bet Amount : " + topdeger + "$";
+                bettext.text = "Bet Amount : " + topdeger + "$";
         }
         public void ballamountA()
         {
