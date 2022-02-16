@@ -11940,7 +11940,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballybtn: {fileID: 797924494}
   cashcontrol: {fileID: 0}
-  bettext: {fileID: 0}
+  bettext: {fileID: 1198004888}
   topdeger: 0
   ballAtext: {fileID: 915295597}
   cashControl: {fileID: 0}
