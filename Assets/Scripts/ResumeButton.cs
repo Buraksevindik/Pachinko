@@ -12,5 +12,4 @@ public class ResumeButton : MonoBehaviour
         Menuu.SetActive(false);
         Time.timeScale = 1;
     }
-
 }

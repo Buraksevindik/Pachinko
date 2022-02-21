@@ -9,7 +9,6 @@ namespace Pachinko {
         public Button betbutton;
         int f = 0;
         public GameObject Player;
-        //public PlayerSettings playerSettings;
         float x;
         float y;
         float z;

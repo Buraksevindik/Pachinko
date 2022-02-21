@@ -41,15 +41,8 @@ namespace Pachinko
         }
         public void ballamountA()
         {
-            //if (ballAmount-5<0)
-            //{
-            //    ballAA.interactable = false;
-            //}
-            //else
-            //{
             ballAmount -= 5;
             ballAtext.text = "Ball Amount : " + ballAmount;
-            //}
         }
         public void ballamountY()
         {

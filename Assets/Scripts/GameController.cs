@@ -24,16 +24,6 @@ namespace Pachinko
         }
         void Update()
         {
-            //AddMoneyButton Control
-            if (cashcontrol.money<10)
-            {
-                addmoneyBtn.interactable = true;
-            }
-            else
-            {
-                addmoneyBtn.interactable = false;
-            }
-            //BetButton BallyButton Control
             if (ballvalueScript.topdeger > cashcontrol.money)
             {
                 betBtn.interactable = false;
@@ -51,7 +41,6 @@ namespace Pachinko
             {
                 ballybtn.interactable = false;
             }
-            //ballAA/ballAY Control
             if (ballvalueScript.ballAmount - 5 <= 0)
             {
                 ballAA.interactable = false;
@@ -75,6 +64,14 @@ namespace Pachinko
             else
             {
                 ballabtn.interactable = true;
+            }
+            if (cashcontrol.money < 10)
+            {
+                addmoneyBtn.interactable = true;
+            }
+            else
+            {
+                addmoneyBtn.interactable = false;
             }
         }
     }

@@ -7,7 +7,7 @@ namespace Pachinko
 {
     public class CashControl : MonoBehaviour
     {
-        BallValue ballvalueScript;      
+        BallValue ballvalueScript;
         public Button betBtn;
         public Text cashText;
         public float money;
