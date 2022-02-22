@@ -4251,7 +4251,7 @@ GameObject:
   - component: {fileID: 508869988}
   - component: {fileID: 508869987}
   m_Layer: 5
-  m_Name: Text
+  m_Name: BetText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4622,7 +4622,7 @@ GameObject:
   - component: {fileID: 547462630}
   - component: {fileID: 547462629}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: AddMoneyText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5916,7 +5916,7 @@ GameObject:
   - component: {fileID: 658779823}
   - component: {fileID: 658779822}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: MenuText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
