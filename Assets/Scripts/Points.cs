@@ -20,8 +20,7 @@ namespace Pachinko
             float toplam = (info.gameObject.GetComponent<PlayerSettings>().deger * degerr) / 2;
             cashcontrol.AdjustMoney(toplam);
             cashText.text = "Cash : " + cashcontrol.GetMoney().ToString() + "$";
-            PlayerPrefs.SetFloat("Money",(cashcontrol.money));
-
+            PlayerPrefs.SetFloat("Money", (cashcontrol.money));
         }
     }
 }
